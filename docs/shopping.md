@@ -328,7 +328,7 @@ For instance, in <https://www.zagg.com/en_us/new-arrivals?brand=164&cat=3038%2C3
 
 ### 搜索结果
 
-<Route author="fengkx" example="/duozhuayu/search/JavaScript" path="/duozhuayu/search/:wd" :paramsDesc="['搜索关键词']"/>
+<Route author="fengkx" example="/duozhuayu/search/JavaScript" path="/duozhuayu/search/:wd" :paramsDesc="['搜索关键词']" radar="1"/>
 
 ## 逛丢
 
@@ -442,6 +442,12 @@ For instance, in <https://www.zagg.com/en_us/new-arrivals?brand=164&cat=3038%2C3
 ### 图书列表
 
 <Route author="hoilc" example="/ptpress/book/new" path="/ptpress/book/:type?" :paramsDesc="['排序方式，默认`new`为最新图书，可选`hot`为最热图书']"/>
+
+## 上海文化广场
+
+### 节目列表
+
+<Route author="fuzy112" example="/shcstheatre/programs" path="/shcstheatre/programs"/>
 
 ## 什么值得买
 

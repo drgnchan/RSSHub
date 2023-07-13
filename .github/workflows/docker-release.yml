@@ -10,9 +10,11 @@ on:
       - '!**/maintainer.js'
       - '!**/radar.js'
       - '!**/radar-rules.js'
+      - '!lib/v2/test/**'
+      - '!test/**'
       - 'Dockerfile'
       - 'package.json'
-      - 'yarn.lock'
+      - 'pnpm-lock.yaml'
   workflow_dispatch: ~
 
 jobs:

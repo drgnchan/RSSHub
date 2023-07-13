@@ -201,6 +201,12 @@ pageClass: routes
 
 <Route author="chengyuhui" example="/cngal/entry/2693" path="/cngal/entry/:id" :paramsDesc="['词条ID，游戏或制作者页面URL的最后一串数字']" radar="1" rssbud="1"/>
 
+## Comicat
+
+### 搜索关键词
+
+<Route author="Cyang39" example="/comicat/search/喵萌奶茶屋+跃动青春+720P+简日" path="/comicat/search/:keyword" :paramsDesc="['关键词，请用`+`号连接']" supportBT=1/>
+
 ## DLsite
 
 ### 通用
@@ -548,7 +554,7 @@ Sources
 
 ## 包子漫画
 
-#### 订阅漫画
+### 订阅漫画
 
 <Route author="Fatpandac" example="/baozimh/comic/guowangpaiming-shiricaofu" path="/baozimh/comic/:name" :paramsDesc="['漫画名称，在漫画链接可以得到(`comic/` 后的那段)']"/>
 
